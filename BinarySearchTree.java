@@ -52,7 +52,6 @@ class BinarySearchTree {
         bst.insertNode(-10);
         bst.insertNode(0);
         bst.insertNode(5);
-        bst.insertNode(30);
         bst.insertNode(36);
         Node searchResult = bst.search(bst.root,30);
         System.out.println(searchResult.data);
